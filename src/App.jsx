@@ -3,7 +3,7 @@ import './App.css'
 import NavBar from './components/header/NavBar'
 import Home from './pages/1.home/Home'
 import Login from './pages/2.login/Login'
-import About from './pages/3.about/About'
+import SignUp from './pages/3.signup/SignUp'
 import Contact from './pages/4.contact/Contact'
 import Footer from './components/footer/Footer'
 
@@ -17,7 +17,7 @@ function App() {
       <Routes>
       <Route exact path='/' element={<Home />} />
       <Route path='/login' element={<Login />} />
-      <Route path='/about' element={<About />} />
+      <Route path='/signup' element={<SignUp />} />
       <Route path='/contact' element={<Contact />} />
       </Routes>
 
