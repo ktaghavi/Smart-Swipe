@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "username": "kamt",
+      "password": "123",
+      "email": "kamt@gmail.com",
+      "dob": "1992-05-25",
+      "sex": "Man",
+      "interestedIn": "Women",
+      "id": 1
+    },
+    {
+      "username": "david",
+      "password": "1234",
+      "email": "david@gmail.com",
+      "dob": "1996-02-18",
+      "sex": "Man",
+      "interestedIn": "Women",
+      "id": 2
+    },
+    {
+      "username": "terance",
+      "password": "123",
+      "email": "terance@gmail.com",
+      "dob": "1995-03-06",
+      "sex": "Man",
+      "interestedIn": "Women",
+      "id": 3
+    }
+  ]
+}

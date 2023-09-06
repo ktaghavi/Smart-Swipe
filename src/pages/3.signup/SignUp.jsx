@@ -1,5 +1,20 @@
+import { UserMinusIcon } from "@heroicons/react/24/outline";
 
-const SignUp = () => {
+const SignUp = ({users, setUsers}) => {
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    const data = Object.fromEntries(formData.entries());
+    fetch('http://localhost:3000/users', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
+    })
+    .then (r => r.json())
+    .then (data => setUsers([...users, data]))
+  };
+
   return (
     <div>
         <h1>
@@ -41,18 +56,6 @@ const SignUp = () => {
     </div>
   )
 }
-
-const handleSubmit = async (event) => {
-  event.preventDefault();
-  const formData = new FormData(event.target);
-  const data = Object.fromEntries(formData.entries());
-  await fetch('/your-api-endpoint', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(data),
-  });
-};
-
 
 export default SignUp
 
