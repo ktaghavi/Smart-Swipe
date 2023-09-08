@@ -6,7 +6,7 @@ const Profile = ({currentUser}) => {
   return (
     <div>
       <SmartCards />
-      {/* <CardFooter /> */}
+      <CardFooter />
     </div>
   )
 }

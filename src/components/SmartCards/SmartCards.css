@@ -1,23 +1,23 @@
 .card-container{
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 80vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 .card{
-    position: relative;
-    width: 600px;
-    max-width: 80vw;
-    height: 50vh;
-    padding: 20px;
-    border-radius: 20px;
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0px 20px 60px 0px rgba(0, 0, 0, 0.3);
+    position: relative !important;
+    width: 600px !important;
+    max-width: 80vw !important;
+    height: 75vh !important;
+    padding: 20px !important;
+    border-radius: 20px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    box-shadow: 0px 20px 60px 0px rgba(0, 0, 0, 0.3) !important;
 
 }
 
 .swipe{
-    position: absolute;
+    position: absolute !important;
 }
