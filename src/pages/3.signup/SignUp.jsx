@@ -16,34 +16,37 @@ const SignUp = ({users, setUsers}) => {
   };
 
   return (
-    <div>
-        <h1>
+    <div className='parent'>
+      <div className='div1'>
+        <b>
+        <h1 style={{fontSize: '1.5rem', paddingBottom: '10px'}}>
         Sign Up!
         </h1>
+        </b>
         <form onSubmit={handleSubmit} className='form'>
             <div>
-            <label>Username</label>
-            <input type="text" name="username"></input>
-            <label>Password</label>
-            <input type="password" name="password"></input>
+            {/* <label>Username</label> */}
+            <input type="text" name="username" placeholder='Username' style={{margin: '10px'}}></input>
+            {/* <label>Password</label> */}
+            <input type="password" name="password" placeholder='Password'></input>
             </div>
 
             <div>
-            <label>Email</label>
-            <input type="email" name="email"></input>
+            {/* <label>Email</label> */}
+            <input type="email" name="email" placeholder='Email 'style={{margin: '10px'}}></input>
             <label>Date of Birth</label>
-            <input type="date" name="dob"></input>
+            <input type="date" name="dob" placeholder='DOB'></input>
             </div>
 
             <div>
             <label>Sex</label>
-            <select name="sex">
+            <select name="sex" style={{margin: '10px'}}>
                 <option value="Man">Man</option>
                 <option value="Woman">Woman</option>
                 <option value="Other">Other</option>
             </select>
             <label>Interested in </label>
-            <select name="interestedIn">
+            <select name="interestedIn" style={{margin: '10px'}}>
                 <option value="Men">Men</option>
                 <option value="Women">Women</option>
                 <option value="Other">Other</option>
@@ -53,6 +56,7 @@ const SignUp = ({users, setUsers}) => {
               <button type="submit">Sign Up</button>
             </div>
   </form>
+    </div>
     </div>
   )
 }

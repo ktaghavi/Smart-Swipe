@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 export default function Login({users, setCurrentUser}) {
 
   const navigate = useNavigate();
@@ -11,7 +11,7 @@ export default function Login({users, setCurrentUser}) {
 
   const user = users.find(user => user.username === userName && user.password === password);  
   setCurrentUser(user);
-  user? navigate ('/profile') : console.log ("Incorrect Username/Password");
+  user? navigate ('/profile') : alert ("Incorrect Username/Password");
   }
 
   
@@ -74,9 +74,9 @@ export default function Login({users, setCurrentUser}) {
   
             <p className="mt-10 text-center text-sm text-gray-500">
               Not a member?{' '}
-              <a href="./SignUp" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
+              <Link to="/SignUp" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
                 Sign up now!
-              </a>
+              </Link>
             </p>
           </div>
         </div>

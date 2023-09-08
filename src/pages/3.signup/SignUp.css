@@ -6,7 +6,23 @@ form {
   label {
     margin-bottom: 0.5rem;
   }
-  
+  .div1{
+    grid-area: 2 / 2 / 5 / 5;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
   input[name=username],
   input[name=password],
   input[name=email],

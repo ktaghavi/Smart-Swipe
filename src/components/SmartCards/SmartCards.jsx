@@ -44,11 +44,14 @@ const SmartCards = () => {
     ]);
 
   return (
-    <div className='card-container'>
+    <div className='parent' >
+    <div className='card-container' >
 
     {
+        
     cards.map(card => (
         <TinderCard 
+        
         className='swipe'
         key={card.name}
         preventSwipe={['up', 'down']}
@@ -59,6 +62,7 @@ const SmartCards = () => {
         </TinderCard>
     ))
     }
+    </div>
     </div>
 )}
 
