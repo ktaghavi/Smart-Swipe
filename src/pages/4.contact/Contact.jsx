@@ -3,7 +3,11 @@ const Contact = () => {
   return (
     <div>
         <h1>
-        Contact
+        Have a swiping addiction?
+          <h2>
+          Get help! 
+          </h2>
+          Call 555-Swiper-No-Swiping TODAY!!!
         </h1>
     </div>
   )

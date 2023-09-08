@@ -68,7 +68,7 @@ export default function Example({setCurrentUser}) {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        src="https://scontent-den4-1.xx.fbcdn.net/v/t39.30808-6/356823872_10225110002520386_6806882433426623481_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=1b51e3&_nc_ohc=SlS_T_KMw_wAX8oIg0l&_nc_ht=scontent-den4-1.xx&oh=00_AfAvClUSgFaPAVCfGLGRkyiN5MgmNigPQ5-9L58510Z1-g&oe=64FECC33"
                         alt=""
                       />
                     </Menu.Button>

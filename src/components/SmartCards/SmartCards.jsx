@@ -11,7 +11,7 @@ const SmartCards = () => {
         },
         {
            name: "Jen",
-           url:"https://people.com/thmb/2B8bIrttLn36XWM_Z5UsEQh5Jgk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/jennifer-lopez-1-3515996e5fee4258b7cd05df72bfbe38.jpg"
+           url:"https://images.hellomagazine.com/horizon/square/33f7bc7edc3d-jlo-floral-dresses.jpg"
         },
         {
             name:"Liz",
