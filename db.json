@@ -35,6 +35,15 @@
       "sex": "Man",
       "interestedIn": "Women",
       "id": 4
+    },
+    {
+      "username": "",
+      "password": "",
+      "email": "",
+      "dob": "",
+      "sex": "Man",
+      "interestedIn": "Men",
+      "id": 5
     }
   ]
 }

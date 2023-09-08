@@ -1,4 +1,4 @@
-import { UserMinusIcon } from "@heroicons/react/24/outline";
+import './SignUp.css';
 
 const SignUp = ({users, setUsers}) => {
 
@@ -20,7 +20,7 @@ const SignUp = ({users, setUsers}) => {
         <h1>
         Sign Up!
         </h1>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className='form'>
             <div>
             <label>Username</label>
             <input type="text" name="username"></input>
