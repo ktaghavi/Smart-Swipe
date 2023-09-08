@@ -26,6 +26,15 @@
       "sex": "Man",
       "interestedIn": "Women",
       "id": 3
+    },
+    {
+      "username": "Ryan",
+      "password": "1234",
+      "email": "ryan@gmail.com",
+      "dob": "2003-05-12",
+      "sex": "Man",
+      "interestedIn": "Women",
+      "id": 4
     }
   ]
 }

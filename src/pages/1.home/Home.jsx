@@ -3,7 +3,7 @@ const Home = () => {
   return (
     <div>
         <h1 className="text-center p-4">
-            Smart Swype
+            Smart Swype 🧠
         </h1>
     </div>
   )

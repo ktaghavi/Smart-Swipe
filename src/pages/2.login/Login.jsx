@@ -11,7 +11,7 @@ export default function Login({users, setCurrentUser}) {
 
   const user = users.find(user => user.username === userName && user.password === password);  
   setCurrentUser(user);
-  navigate ('/profile');
+  user? navigate ('/profile') : console.log ("Incorrect Username/Password");
   }
 
   
