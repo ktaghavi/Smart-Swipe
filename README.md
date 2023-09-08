@@ -1,8 +1,7 @@
-# React + Vite
+To run the application:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Run the db.json server by running the following command: json-server --watch db.json
+2. In another terminal, run the front-end by running the following command: npm run dev
+3. Navigate to the Sign Up page and register for a new account!
+4. Login to your account.
+5. Happy Smart Swiping!

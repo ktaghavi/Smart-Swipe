@@ -40,7 +40,7 @@ useEffect(() => {
       <Route path='/profile' element={<Profile currentUser={currentUser}/>} />
       </Routes>
 
-      <Footer />
+      {/* <Footer /> */}
 
     </Router>
 
